@@ -1,0 +1,89 @@
+<html>
+<title>FORM</title>
+<body>
+ <h1><CENTER>STUDENT REGISTRATION FORM</CENTER></h1>
+ <form>
+ 
+<fieldset>
+<legend>INFO</legend>
+<center>
+
+ <label><tr><td>Name</td>
+<td><input name="hi"></td></tr>
+ </label><br><br>
+ 
+ <tr>
+ <td><label>Email
+ <td><input type="email" placeholder="efyvyshnavi@gmail.com"name="hi">
+ </label><br><br>
+
+ 
+ <tr>
+ <label>Phone number
+ <input type="tel"name="apt">
+ </label><br><br></tr>
+ 
+ <tr>
+ <label>Password
+ <input type="password"name="pass">
+ </label><br><br></TR>
+ 
+ <label>Date Of Birth
+ <input type="date"name="date">
+ </label><br><br>
+ 
+ <label>Select category of your age:
+ <input type="radio"name="radio">
+ <label for="radio">18-20</label<br>
+ <input type="radio"name="radio">
+ <label for="radio">21-23</label<br>
+ <input type="radio"name="radio">
+ <label for="radio">24-25</label
+ </label>
+ 
+ <label>Date of enrolling the program
+ <input type="datetime-local"name="datetime">
+ </label><br><br>
+ 
+ <label>How many days do you attend it?
+ <input type="number"name="number"max="7"min="0">
+ </label><br><br>
+ 
+ <label>How do you rate it?
+ <input type="range"name="range"min="0"max="3">
+ </label><br><br>
+ 
+ <label>Upload your certificte
+ <input type="file"name="fie">
+ </label><br><br>
+ 
+ <label>Upload session images
+ <input type="file"name="img"accept="image/*"multiple="">
+ </label><br><br>
+ 
+ 
+<label>How do you rate it?</label><br>
+<input type="checkbox"id="checkbox"name="checkbox"value="box">
+<label for="checkbox">The session was excellent</label><br>
+<input type="checkbox"id="check"name="checkbox"value="box">
+<label for="check">Ideas are convinced clearly</label><br>
+<input type="checkbox"id="box"name="checkbox"value="box">
+<label for="box">Need improvement </label><br><br>
+
+ <label>Do you pay money to attend te program?</label>
+ <select id="CATEGORY"name="CATE">
+ <option value="students">Yes</option>
+ <option value="staffs">No</option>
+ <option value="students">Paid half amount</option>
+ </select><br><br>
+ 
+ <label for="NAME">Comments</label>
+ <textarea id="NAME"name="TEST">
+ </textarea><br><br>
+ <input type="button"value="submit">
+ </center>
+ </fieldset>
+
+
+
+ 
